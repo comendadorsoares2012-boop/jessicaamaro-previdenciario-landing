@@ -1,62 +1,68 @@
 import { motion } from "framer-motion";
-import { Scale } from "lucide-react";
-import heroBg from "@/assets/hero-bg.jpg";
+import jessicaHero from "@/assets/jessica-hero.jpg";
 
 const Hero = () => {
   return (
     <section
       id="inicio"
-      className="relative min-h-screen flex items-center justify-center overflow-hidden"
+      className="relative min-h-screen flex items-center overflow-hidden bg-brand-green"
     >
-      <div
-        className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: `url(${heroBg})` }}
-      />
-      <div className="absolute inset-0 bg-navy/80" />
-
-      <div className="relative z-10 container mx-auto px-4 lg:px-8 text-center pt-20">
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
-        >
-          <div className="flex justify-center mb-6">
-            <Scale className="text-gold" size={48} strokeWidth={1.5} />
-          </div>
-          <h1 className="font-display text-4xl md:text-5xl lg:text-7xl font-bold text-primary-foreground leading-tight mb-6">
-            Jéssica <span className="text-gradient-gold">Amaro</span>
-          </h1>
-          <p className="font-body text-lg md:text-xl text-primary-foreground/70 max-w-2xl mx-auto mb-4 font-light tracking-wide">
-            Advogada Especialista em Direito Previdenciário
-          </p>
-          <div className="w-16 h-px bg-gold mx-auto mb-8" />
-          <p className="font-body text-base text-primary-foreground/60 max-w-xl mx-auto mb-10 leading-relaxed">
-            Atuação dedicada na defesa dos seus direitos previdenciários. 
-            Aposentadorias, benefícios e planejamento previdenciário com segurança e transparência.
-          </p>
-        </motion.div>
-
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.6 }}
-          className="flex flex-col sm:flex-row gap-4 justify-center"
-        >
-          <a
-            href="https://wa.me/5521991848197"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-gold text-navy font-body font-semibold px-8 py-3.5 rounded text-base hover:bg-gold-light transition-all duration-300 hover:shadow-xl hover:shadow-gold/25 hover:-translate-y-0.5"
+      <div className="container mx-auto px-4 lg:px-8 pt-20">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          {/* Text */}
+          <motion.div
+            initial={{ opacity: 0, x: -30 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+            className="text-center lg:text-left order-2 lg:order-1"
           >
-            Agende sua Consulta
-          </a>
-          <a
-            href="#servicos"
-            className="border border-gold/40 text-gold font-body font-medium px-8 py-3.5 rounded text-base hover:bg-gold/10 transition-all duration-300 hover:-translate-y-0.5"
+            <p className="font-body text-sm uppercase tracking-[0.2em] text-brand-gold mb-4">
+              Advogada Previdenciária
+            </p>
+            <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground leading-tight mb-6">
+              Jéssica{" "}
+              <span className="text-gradient-gold">Amaro</span>
+            </h1>
+            <div className="w-16 h-px bg-brand-gold mb-6 mx-auto lg:mx-0" />
+            <p className="font-body text-base md:text-lg text-primary-foreground/60 max-w-lg mb-10 leading-relaxed mx-auto lg:mx-0">
+              Especialista em Direito Previdenciário. Atuação dedicada na defesa dos seus direitos — aposentadorias, benefícios e planejamento previdenciário com segurança e transparência.
+            </p>
+
+            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+              <a
+                href="https://wa.me/5521991848197"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-brand-gold text-brand-green font-body font-semibold px-8 py-3.5 rounded text-base hover:bg-brand-gold-light transition-all duration-300 hover:shadow-xl hover:shadow-brand-gold/25 hover:-translate-y-0.5"
+              >
+                Agende sua Consulta
+              </a>
+              <a
+                href="#servicos"
+                className="border border-brand-gold/40 text-brand-gold font-body font-medium px-8 py-3.5 rounded text-base hover:bg-brand-gold/10 transition-all duration-300 hover:-translate-y-0.5"
+              >
+                Conheça os Serviços
+              </a>
+            </div>
+          </motion.div>
+
+          {/* Photo */}
+          <motion.div
+            initial={{ opacity: 0, x: 30 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.8, delay: 0.4 }}
+            className="flex justify-center order-1 lg:order-2"
           >
-            Conheça os Serviços
-          </a>
-        </motion.div>
+            <div className="relative">
+              <div className="absolute -inset-4 bg-brand-gold/10 rounded-2xl rotate-3" />
+              <img
+                src={jessicaHero}
+                alt="Dra. Jéssica Amaro - Advogada Previdenciária"
+                className="relative rounded-2xl shadow-2xl w-full max-w-md object-cover aspect-[3/4]"
+              />
+            </div>
+          </motion.div>
+        </div>
       </div>
     </section>
   );

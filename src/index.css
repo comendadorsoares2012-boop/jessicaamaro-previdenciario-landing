@@ -7,41 +7,42 @@
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 216 50% 12%;
+    --foreground: 160 40% 12%;
 
     --card: 0 0% 100%;
-    --card-foreground: 216 50% 12%;
+    --card-foreground: 160 40% 12%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 216 50% 12%;
+    --popover-foreground: 160 40% 12%;
 
-    --primary: 216 50% 16%;
-    --primary-foreground: 43 100% 95%;
+    --primary: 160 55% 23%;
+    --primary-foreground: 40 50% 95%;
 
-    --secondary: 43 72% 55%;
-    --secondary-foreground: 216 50% 12%;
+    --secondary: 32 45% 65%;
+    --secondary-foreground: 160 55% 12%;
 
-    --muted: 216 20% 96%;
-    --muted-foreground: 216 15% 50%;
+    --muted: 40 15% 96%;
+    --muted-foreground: 160 10% 45%;
 
-    --accent: 43 72% 55%;
-    --accent-foreground: 216 50% 12%;
+    --accent: 32 45% 65%;
+    --accent-foreground: 160 55% 12%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 216 20% 90%;
-    --input: 216 20% 90%;
-    --ring: 43 72% 55%;
+    --border: 40 15% 90%;
+    --input: 40 15% 90%;
+    --ring: 32 45% 65%;
 
     --radius: 0.5rem;
 
-    --navy: 216 50% 16%;
-    --navy-light: 216 40% 25%;
-    --gold: 43 72% 55%;
-    --gold-light: 43 80% 70%;
-    --gold-dark: 43 65% 42%;
-    --cream: 43 30% 97%;
+    /* Brand colors from logo */
+    --brand-green: 160 55% 23%;
+    --brand-green-light: 160 40% 32%;
+    --brand-gold: 32 45% 65%;
+    --brand-gold-light: 32 55% 75%;
+    --brand-gold-dark: 32 40% 50%;
+    --cream: 40 30% 97%;
 
     --font-display: 'Playfair Display', serif;
     --font-body: 'Inter', sans-serif;
@@ -73,28 +74,28 @@
 @layer utilities {
   .text-gradient-gold {
     @apply bg-clip-text text-transparent;
-    background-image: linear-gradient(135deg, hsl(43 72% 55%), hsl(43 80% 70%));
+    background-image: linear-gradient(135deg, hsl(32 45% 65%), hsl(32 55% 75%));
   }
-  .bg-navy {
-    background-color: hsl(var(--navy));
+  .bg-brand-green {
+    background-color: hsl(var(--brand-green));
   }
-  .bg-navy-light {
-    background-color: hsl(var(--navy-light));
+  .bg-brand-green-light {
+    background-color: hsl(var(--brand-green-light));
   }
   .bg-cream {
     background-color: hsl(var(--cream));
   }
-  .text-navy {
-    color: hsl(var(--navy));
+  .text-brand-green {
+    color: hsl(var(--brand-green));
   }
-  .text-gold {
-    color: hsl(var(--gold));
+  .text-brand-gold {
+    color: hsl(var(--brand-gold));
   }
-  .border-gold {
-    border-color: hsl(var(--gold));
+  .border-brand-gold {
+    border-color: hsl(var(--brand-gold));
   }
-  .bg-gold {
-    background-color: hsl(var(--gold));
+  .bg-brand-gold {
+    background-color: hsl(var(--brand-gold));
   }
 }
 
