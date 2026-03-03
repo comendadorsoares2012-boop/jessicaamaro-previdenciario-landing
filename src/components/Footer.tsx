@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="flex items-center gap-2 mb-4">
               <img src={logo} alt="Jéssica Amaro" className="h-10 w-auto" />
               <span className="font-display text-lg font-bold text-primary-foreground">
-                Jéssica <span className="text-brand-gold">Amaro</span>
+                Dra. Jéssica <span className="text-brand-gold">Amaro</span>
               </span>
             </div>
             <p className="font-body text-sm text-primary-foreground/50 leading-relaxed">
@@ -47,7 +47,7 @@ const Footer = () => {
 
         <div className="border-t border-brand-gold/10 pt-6">
           <p className="font-body text-xs text-primary-foreground/30 text-center">
-            © {new Date().getFullYear()} Jéssica Amaro — Advocacia. Todos os direitos reservados.
+            © {new Date().getFullYear()} Dra. Jéssica Amaro — Advocacia. Todos os direitos reservados.
           </p>
         </div>
       </div>

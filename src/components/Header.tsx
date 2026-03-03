@@ -18,37 +18,24 @@ const Header = () => {
       <div className="container mx-auto px-4 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
           <a href="#inicio" className="flex items-center gap-2">
-            <img src={logo} alt="Jéssica Amaro" className="h-10 lg:h-12 w-auto" />
+            <img src={logo} alt="Dra. Jéssica Amaro" className="h-10 lg:h-12 w-auto" />
             <span className="font-display text-lg lg:text-xl font-bold text-primary-foreground tracking-wide">
-              Jéssica <span className="text-brand-gold">Amaro</span>
+              Dra. Jéssica <span className="text-brand-gold">Amaro</span>
             </span>
           </a>
 
           <nav className="hidden md:flex items-center gap-8">
             {navLinks.map((link) => (
-              <a
-                key={link.href}
-                href={link.href}
-                className="text-sm font-body font-medium text-primary-foreground/80 hover:text-brand-gold transition-colors duration-300 tracking-wide uppercase"
-              >
+              <a key={link.href} href={link.href} className="text-sm font-body font-medium text-primary-foreground/80 hover:text-brand-gold transition-colors duration-300 tracking-wide uppercase">
                 {link.label}
               </a>
             ))}
-            <a
-              href="https://wa.me/5521991848197"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-brand-gold text-brand-green font-body text-sm font-semibold px-5 py-2.5 rounded hover:bg-brand-gold-light transition-all duration-300 hover:shadow-lg hover:shadow-brand-gold/20"
-            >
+            <a href="https://wa.me/5521991848197" target="_blank" rel="noopener noreferrer" className="bg-brand-gold text-brand-green font-body text-sm font-semibold px-5 py-2.5 rounded hover:bg-brand-gold-light transition-all duration-300 hover:shadow-lg hover:shadow-brand-gold/20">
               Fale Conosco
             </a>
           </nav>
 
-          <button
-            onClick={() => setIsOpen(!isOpen)}
-            className="md:hidden text-primary-foreground"
-            aria-label="Menu"
-          >
+          <button onClick={() => setIsOpen(!isOpen)} className="md:hidden text-primary-foreground" aria-label="Menu">
             {isOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
         </div>
@@ -56,30 +43,14 @@ const Header = () => {
 
       <AnimatePresence>
         {isOpen && (
-          <motion.nav
-            initial={{ height: 0, opacity: 0 }}
-            animate={{ height: "auto", opacity: 1 }}
-            exit={{ height: 0, opacity: 0 }}
-            transition={{ duration: 0.3 }}
-            className="md:hidden bg-brand-green border-t border-brand-gold/20 overflow-hidden"
-          >
+          <motion.nav initial={{ height: 0, opacity: 0 }} animate={{ height: "auto", opacity: 1 }} exit={{ height: 0, opacity: 0 }} transition={{ duration: 0.3 }} className="md:hidden bg-brand-green border-t border-brand-gold/20 overflow-hidden">
             <div className="container mx-auto px-4 py-4 flex flex-col gap-4">
               {navLinks.map((link) => (
-                <a
-                  key={link.href}
-                  href={link.href}
-                  onClick={() => setIsOpen(false)}
-                  className="text-sm font-body font-medium text-primary-foreground/80 hover:text-brand-gold transition-colors uppercase tracking-wide py-2"
-                >
+                <a key={link.href} href={link.href} onClick={() => setIsOpen(false)} className="text-sm font-body font-medium text-primary-foreground/80 hover:text-brand-gold transition-colors uppercase tracking-wide py-2">
                   {link.label}
                 </a>
               ))}
-              <a
-                href="https://wa.me/5521991848197"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-brand-gold text-brand-green font-body text-sm font-semibold px-5 py-2.5 rounded text-center hover:bg-brand-gold-light transition-all duration-300"
-              >
+              <a href="https://wa.me/5521991848197" target="_blank" rel="noopener noreferrer" className="bg-brand-gold text-brand-green font-body text-sm font-semibold px-5 py-2.5 rounded text-center hover:bg-brand-gold-light transition-all duration-300">
                 Fale Conosco
               </a>
             </div>
