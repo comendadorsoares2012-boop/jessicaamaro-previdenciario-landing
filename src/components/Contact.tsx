@@ -1,0 +1,75 @@
+import { motion } from "framer-motion";
+import { Phone, MapPin, MessageCircle } from "lucide-react";
+
+const Contact = () => {
+  return (
+    <section id="contato" className="py-20 lg:py-32 bg-navy relative">
+      <div className="container mx-auto px-4 lg:px-8">
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.7 }}
+          className="text-center mb-16"
+        >
+          <p className="font-body text-sm uppercase tracking-[0.2em] text-gold mb-3">Contato</p>
+          <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-primary-foreground mb-6">
+            Fale Conosco
+          </h2>
+          <div className="w-12 h-px bg-gold mx-auto mb-6" />
+          <p className="font-body text-base text-primary-foreground/60 max-w-lg mx-auto">
+            Entre em contato para agendar sua consulta ou tirar suas dúvidas.
+          </p>
+        </motion.div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+          <motion.a
+            href="https://wa.me/5521991848197"
+            target="_blank"
+            rel="noopener noreferrer"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5 }}
+            className="group flex flex-col items-center text-center p-8 rounded-lg border border-gold/20 hover:border-gold/50 hover:bg-navy-light transition-all duration-300"
+          >
+            <MessageCircle className="text-gold mb-4 group-hover:scale-110 transition-transform duration-300" size={36} strokeWidth={1.5} />
+            <h3 className="font-display text-lg font-semibold text-primary-foreground mb-2">WhatsApp</h3>
+            <p className="font-body text-sm text-primary-foreground/60">(21) 99184-8197</p>
+          </motion.a>
+
+          <motion.a
+            href="tel:+552126952241"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.1 }}
+            className="group flex flex-col items-center text-center p-8 rounded-lg border border-gold/20 hover:border-gold/50 hover:bg-navy-light transition-all duration-300"
+          >
+            <Phone className="text-gold mb-4 group-hover:scale-110 transition-transform duration-300" size={36} strokeWidth={1.5} />
+            <h3 className="font-display text-lg font-semibold text-primary-foreground mb-2">Telefone</h3>
+            <p className="font-body text-sm text-primary-foreground/60">(21) 2695-2241</p>
+          </motion.a>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+            className="group flex flex-col items-center text-center p-8 rounded-lg border border-gold/20 hover:border-gold/50 hover:bg-navy-light transition-all duration-300"
+          >
+            <MapPin className="text-gold mb-4 group-hover:scale-110 transition-transform duration-300" size={36} strokeWidth={1.5} />
+            <h3 className="font-display text-lg font-semibold text-primary-foreground mb-2">Endereço</h3>
+            <p className="font-body text-sm text-primary-foreground/60 leading-relaxed">
+              Av. Gov. Roberto Silveira, 470<br />
+              Sala 1117 – Centro Top Commerce<br />
+              Nova Iguaçu – RJ
+            </p>
+          </motion.div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Contact;
