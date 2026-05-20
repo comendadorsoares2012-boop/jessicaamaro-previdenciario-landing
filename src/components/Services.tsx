@@ -92,7 +92,6 @@ const Services = () => {
               >
                 Saiba mais
                 <span className="ml-2 transition-transform duration-300 group-hover/link:translate-x-1">→</span>
-              </a>
             </motion.div>
           ))}
         </div>
