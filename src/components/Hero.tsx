@@ -56,18 +56,18 @@ const Hero = () => {
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <a
+                href="#contato"
+                className="bg-brand-gold text-brand-green font-body font-semibold px-8 py-3.5 rounded text-base hover:bg-brand-gold-light transition-all duration-300 hover:shadow-xl hover:shadow-brand-gold/25 hover:-translate-y-0.5 text-center"
+              >
+                Agendar Consulta
+              </a>
+              <a
                 href="https://wa.me/5521991848197"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-brand-gold text-brand-green font-body font-semibold px-8 py-3.5 rounded text-base hover:bg-brand-gold-light transition-all duration-300 hover:shadow-xl hover:shadow-brand-gold/25 hover:-translate-y-0.5"
+                className="border border-brand-gold/40 text-brand-gold font-body font-medium px-8 py-3.5 rounded text-base hover:bg-brand-gold/10 transition-all duration-300 hover:-translate-y-0.5 text-center"
               >
-                Agende sua Consulta
-              </a>
-              <a
-                href="#servicos"
-                className="border border-brand-gold/40 text-brand-gold font-body font-medium px-8 py-3.5 rounded text-base hover:bg-brand-gold/10 transition-all duration-300 hover:-translate-y-0.5"
-              >
-                Conheça os Serviços
+                Falar no WhatsApp
               </a>
             </div>
           </motion.div>
