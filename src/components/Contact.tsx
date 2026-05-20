@@ -13,11 +13,32 @@ const Contact = () => {
           className="text-center mb-16"
         >
           <p className="font-body text-sm uppercase tracking-[0.2em] text-brand-gold mb-3">Contato</p>
-          <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-primary-foreground mb-6">Fale Conosco</h2>
+          <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-primary-foreground mb-6">
+            Precisa de orientação jurídica?
+          </h2>
           <div className="w-12 h-px bg-brand-gold mx-auto mb-6" />
-          <p className="font-body text-base text-primary-foreground/60 max-w-lg mx-auto">
-            Entre em contato para agendar sua consulta ou tirar suas dúvidas.
+          <p className="font-body text-base md:text-lg text-primary-foreground/70 max-w-xl mx-auto mb-10">
+            Entre em contato e tenha uma análise do seu caso com segurança e clareza.
           </p>
+
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href="https://wa.me/5521991848197"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-brand-gold text-brand-green font-body font-semibold px-8 py-3.5 rounded text-base hover:bg-brand-gold-light transition-all duration-300 hover:shadow-xl hover:shadow-brand-gold/25 hover:-translate-y-0.5"
+            >
+              Agendar Consulta
+            </a>
+            <a
+              href="https://wa.me/5521991848197"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="border border-brand-gold/40 text-brand-gold font-body font-medium px-8 py-3.5 rounded text-base hover:bg-brand-gold/10 transition-all duration-300 hover:-translate-y-0.5"
+            >
+              WhatsApp
+            </a>
+          </div>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
