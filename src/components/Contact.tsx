@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Phone, MapPin, MessageCircle } from "lucide-react";
+import GoldButton from "./GoldButton";
 
 const Contact = () => {
   return (
@@ -21,20 +22,15 @@ const Contact = () => {
             Entre em contato e tenha uma análise do seu caso com segurança e clareza.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href=""
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-brand-gold text-brand-green font-body font-semibold px-8 py-3.5 rounded text-base hover:bg-brand-gold-light transition-all duration-300 hover:shadow-xl hover:shadow-brand-gold/25 hover:-translate-y-0.5"
-            >
+          <div className="flex flex-col sm:flex-row gap-5 justify-center items-center">
+            <GoldButton href="" target="_blank" rel="noopener noreferrer" size="md">
               Agendar Consulta
-            </a>
+            </GoldButton>
             <a
               href=""
               target="_blank"
               rel="noopener noreferrer"
-              className="border-brand-gold/40 text-brand-gold font-body font-medium px-8 py-3.5 rounded text-base hover:bg-brand-gold/10 transition-all duration-300 hover:-translate-y-0.5 border-0"
+              className="text-brand-gold font-body font-medium px-2 py-3 text-xs uppercase tracking-[0.2em] border-b border-brand-gold/40 hover:text-brand-gold-light hover:border-brand-gold transition-colors duration-300"
             >
               ​
             </a>
