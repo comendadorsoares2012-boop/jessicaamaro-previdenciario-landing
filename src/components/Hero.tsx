@@ -39,15 +39,19 @@ const Hero = () => {
             className="text-center lg:text-left order-2 lg:order-1"
           >
             <p className="font-body text-sm uppercase tracking-[0.2em] text-brand-gold mb-4">
-              Advogada Previdenciária
+              Direito Previdenciário e do Consumidor
             </p>
             <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground leading-tight mb-6">
-              Dra. Jéssica{" "}
-              <span className="text-gradient-gold">Amaro</span>
+              Jéssica{" "}
+              <span className="text-gradient-gold">Amaro</span>{" "}
+              Advocacia
             </h1>
             <div className="w-16 h-px bg-brand-gold mb-6 mx-auto lg:mx-0" />
+            <p className="font-body text-base md:text-lg text-primary-foreground/70 max-w-lg mb-6 leading-relaxed mx-auto lg:mx-0">
+              Atuação jurídica estratégica para proteger seus direitos e garantir segurança em decisões importantes da sua vida.
+            </p>
             <p className="font-body text-base md:text-lg text-primary-foreground/60 max-w-lg mb-10 leading-relaxed mx-auto lg:mx-0">
-              Especialista em Direito Previdenciário. Atuação dedicada na defesa dos seus direitos — aposentadorias, benefícios e planejamento previdenciário com segurança e transparência.
+              Com experiência em benefícios previdenciários e relações de consumo, oferecemos um atendimento humanizado, transparente e focado na melhor solução para cada caso.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
