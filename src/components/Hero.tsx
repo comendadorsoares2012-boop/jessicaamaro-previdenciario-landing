@@ -62,10 +62,10 @@ const Hero = () => {
                 Agendar Consulta
               </a>
               <a
-                href="https://wa.me/5521991848197"
+                href=""
                 target="_blank"
                 rel="noopener noreferrer"
-                className="border border-brand-gold/40 text-brand-gold font-body font-medium px-8 py-3.5 rounded text-base hover:bg-brand-gold/10 transition-all duration-300 hover:-translate-y-0.5 text-center"
+                className="border-brand-gold/40 text-brand-gold font-body font-medium px-8 py-3.5 rounded text-base hover:bg-brand-gold/10 transition-all duration-300 hover:-translate-y-0.5 text-center border-0"
               >
                 Falar no WhatsApp
               </a>

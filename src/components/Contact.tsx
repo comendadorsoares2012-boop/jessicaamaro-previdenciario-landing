@@ -12,7 +12,7 @@ const Contact = () => {
           transition={{ duration: 0.7 }}
           className="text-center mb-16"
         >
-          <p className="font-body text-sm uppercase tracking-[0.2em] text-brand-gold mb-3">Contato</p>
+          <p className="font-body text-sm uppercase tracking-[0.2em] text-brand-gold mb-3">​</p>
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-primary-foreground mb-6">
             Precisa de orientação jurídica?
           </h2>
@@ -23,7 +23,7 @@ const Contact = () => {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://wa.me/5521991848197"
+              href=""
               target="_blank"
               rel="noopener noreferrer"
               className="bg-brand-gold text-brand-green font-body font-semibold px-8 py-3.5 rounded text-base hover:bg-brand-gold-light transition-all duration-300 hover:shadow-xl hover:shadow-brand-gold/25 hover:-translate-y-0.5"
@@ -31,19 +31,19 @@ const Contact = () => {
               Agendar Consulta
             </a>
             <a
-              href="https://wa.me/5521991848197"
+              href=""
               target="_blank"
               rel="noopener noreferrer"
-              className="border border-brand-gold/40 text-brand-gold font-body font-medium px-8 py-3.5 rounded text-base hover:bg-brand-gold/10 transition-all duration-300 hover:-translate-y-0.5"
+              className="border-brand-gold/40 text-brand-gold font-body font-medium px-8 py-3.5 rounded text-base hover:bg-brand-gold/10 transition-all duration-300 hover:-translate-y-0.5 border-0"
             >
-              WhatsApp
+              ​
             </a>
           </div>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
           <motion.a
-            href="https://wa.me/5521991848197"
+            href=""
             target="_blank"
             rel="noopener noreferrer"
             initial={{ opacity: 0, y: 20 }}
@@ -53,7 +53,7 @@ const Contact = () => {
             className="group flex flex-col items-center text-center p-8 rounded-lg border border-brand-gold/20 hover:border-brand-gold/50 hover:bg-brand-green-light transition-all duration-300"
           >
             <MessageCircle className="text-brand-gold mb-4 group-hover:scale-110 transition-transform duration-300" size={36} strokeWidth={1.5} />
-            <h3 className="font-display text-lg font-semibold text-primary-foreground mb-2">WhatsApp</h3>
+            <h3 className="font-display text-lg font-semibold text-primary-foreground mb-2">​</h3>
             <p className="font-body text-sm text-primary-foreground/60">(21) 99184-8197</p>
           </motion.a>
 

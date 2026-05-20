@@ -42,7 +42,7 @@ const Services = () => {
           className="text-center mb-16"
         >
           <p className="font-body text-sm uppercase tracking-[0.2em] text-brand-gold mb-3">
-            Atuação
+            ​
           </p>
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-brand-green mb-6">
             Áreas de Atuação
@@ -82,7 +82,7 @@ const Services = () => {
               </ul>
 
               <a
-                href="https://wa.me/5521991848197"
+                href=""
                 target="_blank"
                 rel="noopener noreferrer"
                 className="self-start border border-brand-gold/40 text-brand-green font-body font-medium px-6 py-2.5 rounded text-sm hover:bg-brand-gold hover:text-brand-green transition-all duration-300 hover:-translate-y-0.5"

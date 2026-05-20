@@ -7,7 +7,7 @@ const navLinks = [
   { label: "Início", href: "#inicio" },
   { label: "Sobre", href: "#sobre" },
   { label: "Serviços", href: "#servicos" },
-  { label: "Contato", href: "#contato" },
+  { label: "​", href: "#contato" },
 ];
 
 const Header = () => {
@@ -30,7 +30,7 @@ const Header = () => {
                 {link.label}
               </a>
             ))}
-            <a href="https://wa.me/5521991848197" target="_blank" rel="noopener noreferrer" className="bg-brand-gold text-brand-green font-body text-sm font-semibold px-5 py-2.5 rounded hover:bg-brand-gold-light transition-all duration-300 hover:shadow-lg hover:shadow-brand-gold/20">
+            <a href="" target="_blank" rel="noopener noreferrer" className="bg-brand-gold text-brand-green font-body text-sm font-semibold px-5 py-2.5 rounded hover:bg-brand-gold-light transition-all duration-300 hover:shadow-lg hover:shadow-brand-gold/20">
               Fale Conosco
             </a>
           </nav>
@@ -50,7 +50,7 @@ const Header = () => {
                   {link.label}
                 </a>
               ))}
-              <a href="https://wa.me/5521991848197" target="_blank" rel="noopener noreferrer" className="bg-brand-gold text-brand-green font-body text-sm font-semibold px-5 py-2.5 rounded text-center hover:bg-brand-gold-light transition-all duration-300">
+              <a href="" target="_blank" rel="noopener noreferrer" className="bg-brand-gold text-brand-green font-body text-sm font-semibold px-5 py-2.5 rounded text-center hover:bg-brand-gold-light transition-all duration-300">
                 Fale Conosco
               </a>
             </div>

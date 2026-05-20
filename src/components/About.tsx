@@ -12,7 +12,7 @@ const About = () => {
           className="max-w-3xl mx-auto text-center"
         >
           <p className="font-body text-sm uppercase tracking-[0.2em] text-brand-gold mb-3">
-            Sobre
+            ​
           </p>
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-brand-green mb-6">
             Sobre o escritório
