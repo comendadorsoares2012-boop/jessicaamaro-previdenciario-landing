@@ -58,16 +58,19 @@ const Services = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: i * 0.1 }}
-              className="group bg-background border border-border rounded-lg p-8 lg:p-10 hover:border-brand-gold/40 hover:shadow-lg transition-all duration-300 flex flex-col"
+              className="group bg-white border border-brand-gold/15 rounded-sm p-8 lg:p-10 hover:border-brand-gold/40 hover:shadow-[0_20px_50px_-20px_hsl(32,55%,32%/0.3)] transition-all duration-500 flex flex-col relative"
             >
-              <area.icon
-                className="mb-5 text-brand-gold group-hover:scale-110 transition-transform duration-300"
-                size={40}
-                strokeWidth={1.5}
-              />
-              <h3 className="font-display text-2xl font-semibold text-brand-green mb-3">
+              <div className="w-12 h-12 border border-brand-gold flex items-center justify-center mb-6">
+                <area.icon
+                  className="text-brand-gold group-hover:scale-110 transition-transform duration-300"
+                  size={22}
+                  strokeWidth={1.5}
+                />
+              </div>
+              <h3 className="font-display text-2xl font-semibold text-brand-green mb-4">
                 {area.title}
               </h3>
+              <div className="w-10 h-px bg-brand-gold mb-5" />
               <p className="font-body text-sm text-muted-foreground leading-relaxed mb-6">
                 {area.description}
               </p>
@@ -75,7 +78,7 @@ const Services = () => {
               <ul className="space-y-3 mb-8 flex-grow">
                 {area.items.map((item) => (
                   <li key={item} className="flex items-start gap-3">
-                    <Check className="text-brand-gold shrink-0 mt-0.5" size={18} strokeWidth={2} />
+                    <Check className="text-brand-gold shrink-0 mt-0.5" size={16} strokeWidth={2} />
                     <span className="font-body text-sm text-brand-green">{item}</span>
                   </li>
                 ))}
@@ -85,9 +88,10 @@ const Services = () => {
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
-                className="self-start border border-brand-gold/40 text-brand-green font-body font-medium px-6 py-2.5 rounded text-sm hover:bg-brand-gold hover:text-brand-green transition-all duration-300 hover:-translate-y-0.5"
+                className="self-start text-brand-gold text-[11px] font-bold uppercase tracking-[0.2em] flex items-center group/link"
               >
                 Saiba mais
+                <span className="ml-2 transition-transform duration-300 group-hover/link:translate-x-1">→</span>
               </a>
             </motion.div>
           ))}
