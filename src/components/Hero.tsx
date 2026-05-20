@@ -1,6 +1,7 @@
 import { useState, useEffect, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import GoldButton from "./GoldButton";
 import jessicaHero from "@/assets/jessica-hero.jpg";
 import jessicaAbout from "@/assets/jessica-about.png";
 import jessicaServices from "@/assets/jessica-services.jpg";
@@ -29,7 +30,11 @@ const Hero = () => {
       id="inicio"
       className="relative min-h-screen flex items-center overflow-hidden bg-brand-green"
     >
-      <div className="container mx-auto px-4 lg:px-8 pt-20">
+      {/* Decorative monogram */}
+      <div className="pointer-events-none absolute inset-0 flex items-center justify-center select-none">
+        <span className="font-display italic text-[18rem] md:text-[28rem] text-brand-gold/[0.04] leading-none">JA</span>
+      </div>
+      <div className="container mx-auto px-4 lg:px-8 pt-20 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Text */}
           <motion.div
@@ -54,18 +59,15 @@ const Hero = () => {
               Com experiência em benefícios previdenciários e relações de consumo, oferecemos um atendimento humanizado, transparente e focado na melhor solução para cada caso.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <a
-                href="#contato"
-                className="bg-brand-gold text-brand-green font-body font-semibold px-8 py-3.5 rounded text-base hover:bg-brand-gold-light transition-all duration-300 hover:shadow-xl hover:shadow-brand-gold/25 hover:-translate-y-0.5 text-center"
-              >
+            <div className="flex flex-col sm:flex-row gap-5 justify-center lg:justify-start items-center lg:items-start">
+              <GoldButton href="#contato" size="md">
                 Agendar Consulta
-              </a>
+              </GoldButton>
               <a
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
-                className="border-brand-gold/40 text-brand-gold font-body font-medium px-8 py-3.5 rounded text-base hover:bg-brand-gold/10 transition-all duration-300 hover:-translate-y-0.5 text-center border-0"
+                className="text-brand-gold font-body font-medium px-2 py-3 text-xs uppercase tracking-[0.2em] border-b border-brand-gold/40 hover:text-brand-gold-light hover:border-brand-gold transition-colors duration-300"
               >
                 Falar no WhatsApp
               </a>
