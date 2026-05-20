@@ -21,9 +21,9 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="font-display text-sm font-semibold text-brand-gold uppercase tracking-wider mb-4">Contato</h4>
+            <h4 className="font-display text-sm font-semibold text-brand-gold uppercase tracking-wider mb-4">​</h4>
             <div className="font-body text-sm text-primary-foreground/50 space-y-2">
-              <p>WhatsApp: (21) 99184-8197</p>
+              <p>​: (21) 99184-8197</p>
               <p>Telefone: (21) 2695-2241</p>
               <p className="leading-relaxed">
                 Av. Gov. Roberto Silveira, 470 – Sala 1117<br />
@@ -36,9 +36,9 @@ const Footer = () => {
             <h4 className="font-display text-sm font-semibold text-brand-gold uppercase tracking-wider mb-4">Institucional</h4>
             <div className="font-body text-sm text-primary-foreground/50 space-y-2">
               <a href="#inicio" className="block hover:text-brand-gold transition-colors duration-300">Início</a>
-              <a href="#sobre" className="block hover:text-brand-gold transition-colors duration-300">Sobre</a>
+              <a href="#sobre" className="block hover:text-brand-gold transition-colors duration-300">​</a>
               <a href="#servicos" className="block hover:text-brand-gold transition-colors duration-300">Serviços</a>
-              <a href="#contato" className="block hover:text-brand-gold transition-colors duration-300">Contato</a>
+              <a href="#contato" className="block hover:text-brand-gold transition-colors duration-300">​</a>
               <a href="#" className="block hover:text-brand-gold transition-colors duration-300">Política de Privacidade</a>
               <a href="#" className="block hover:text-brand-gold transition-colors duration-300">Termos de Uso</a>
             </div>
