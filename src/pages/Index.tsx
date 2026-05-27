@@ -6,6 +6,7 @@ import Differentials from "@/components/Differentials";
 import Authority from "@/components/Authority";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 
 const Index = () => {
   return (
@@ -18,6 +19,7 @@ const Index = () => {
       <Authority />
       <Contact />
       <Footer />
+      <FloatingWhatsApp />
     </div>
   );
 };
