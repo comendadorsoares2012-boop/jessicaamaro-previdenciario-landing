@@ -32,7 +32,7 @@ const areas = [
 
 const Services = () => {
   return (
-    <section id="servicos" className="py-20 lg:py-32 bg-background">
+    <section id="servicos" className="py-20 lg:py-32 bg-brand-green">
       <div className="container mx-auto px-4 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -44,7 +44,7 @@ const Services = () => {
           <p className="font-body text-sm uppercase tracking-[0.2em] text-brand-gold mb-3">
             ​
           </p>
-          <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-brand-green mb-6">
+          <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-primary-foreground mb-6">
             Áreas de Atuação
           </h2>
           <div className="w-12 h-px bg-brand-gold mx-auto" />
@@ -58,7 +58,7 @@ const Services = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: i * 0.1 }}
-              className="group bg-white border border-brand-gold/15 rounded-sm p-8 lg:p-10 hover:border-brand-gold/40 hover:shadow-[0_20px_50px_-20px_hsl(32,55%,32%/0.3)] transition-all duration-500 flex flex-col relative"
+              className="group bg-brand-green-light/20 border border-brand-gold/20 rounded-sm p-8 lg:p-10 hover:border-brand-gold/40 hover:shadow-[0_20px_50px_-20px_hsl(160,55%,12%/0.4)] transition-all duration-500 flex flex-col relative"
             >
               <div className="w-12 h-12 border border-brand-gold flex items-center justify-center mb-6">
                 <area.icon
@@ -67,11 +67,11 @@ const Services = () => {
                   strokeWidth={1.5}
                 />
               </div>
-              <h3 className="font-display text-2xl font-semibold text-brand-green mb-4">
+              <h3 className="font-display text-2xl font-semibold text-primary-foreground mb-4">
                 {area.title}
               </h3>
               <div className="w-10 h-px bg-brand-gold mb-5" />
-              <p className="font-body text-sm text-muted-foreground leading-relaxed mb-6">
+              <p className="font-body text-sm text-primary-foreground/70 leading-relaxed mb-6">
                 {area.description}
               </p>
 
@@ -79,7 +79,7 @@ const Services = () => {
                 {area.items.map((item) => (
                   <li key={item} className="flex items-start gap-3">
                     <Check className="text-brand-gold shrink-0 mt-0.5" size={16} strokeWidth={2} />
-                    <span className="font-body text-sm text-brand-green">{item}</span>
+                    <span className="font-body text-sm text-primary-foreground/90">{item}</span>
                   </li>
                 ))}
               </ul>
