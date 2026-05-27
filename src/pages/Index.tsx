@@ -19,6 +19,7 @@ const Index = () => {
       <Authority />
       <Contact />
       <Footer />
+      <FloatingWhatsApp />
     </div>
   );
 };
