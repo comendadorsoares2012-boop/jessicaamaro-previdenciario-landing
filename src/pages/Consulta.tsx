@@ -30,7 +30,7 @@ const Consulta = () => {
   // Injeta noindex e título exclusivo desta página
   useEffect(() => {
     const prevTitle = document.title;
-    document.title = "Consulta gratuita | Dra. Jéssica Amaro";
+    document.title = "Atendimento jurídico | Dra. Jéssica Amaro";
 
     const meta = document.createElement("meta");
     meta.name = "robots";
@@ -112,15 +112,14 @@ const Consulta = () => {
                 Direito do Consumidor
               </p>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-5">
-                Foi lesado por um banco, plano de saúde ou loja?
+                Seus direitos como consumidor merecem ser respeitados.
                 <span className="block text-gradient-gold mt-2">
-                  Você pode ter direito a indenização.
+                  Conte com orientação jurídica especializada.
                 </span>
               </h1>
               <div className="w-16 h-px bg-brand-gold mb-5" />
               <p className="font-body text-base md:text-lg text-primary-foreground/75 mb-8 leading-relaxed">
-                Análise gratuita do seu caso pela Dra. Jéssica Amaro. Sem
-                compromisso, com atendimento humanizado e total sigilo.
+                Problemas com bancos, planos de saúde, lojas ou prestadores de serviço? A Dra. Jéssica Amaro avalia o seu caso com ética, sigilo profissional e atendimento humanizado.
               </p>
 
               <ul className="space-y-3 mb-8">
@@ -163,10 +162,10 @@ const Consulta = () => {
               className="bg-cream text-brand-green rounded-2xl p-6 md:p-8 shadow-2xl border-t-4 border-brand-gold"
             >
               <h2 className="font-display text-2xl md:text-3xl font-bold mb-2">
-                Receba uma análise <span className="text-brand-gold">gratuita</span>
+                Fale com a <span className="text-brand-gold">Dra. Jéssica</span>
               </h2>
               <p className="font-body text-sm text-brand-green/70 mb-6">
-                Preencha os dados abaixo e fale agora com a Dra. Jéssica pelo WhatsApp.
+                Preencha os dados abaixo e dê o primeiro passo para entender os seus direitos.
               </p>
 
               <div className="space-y-4">
