@@ -23,23 +23,23 @@ const Contact = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-5 justify-center items-center">
-            <GoldButton href="" target="_blank" rel="noopener noreferrer" size="md">
+            <GoldButton href="https://wa.me/5521991848197?text=Ol%C3%A1%21%20Gostaria%20de%20agendar%20uma%20consulta%20com%20a%20Dra.%20J%C3%A9ssica%20Amaro." target="_blank" rel="noopener noreferrer" size="md">
               Agendar Consulta
             </GoldButton>
             <a
-              href=""
+              href="https://wa.me/5521991848197?text=Ol%C3%A1%21%20Gostaria%20de%20agendar%20uma%20consulta%20com%20a%20Dra.%20J%C3%A9ssica%20Amaro."
               target="_blank"
               rel="noopener noreferrer"
               className="text-brand-gold font-body font-medium px-2 py-3 text-xs uppercase tracking-[0.2em] border-b border-brand-gold/40 hover:text-brand-gold-light hover:border-brand-gold transition-colors duration-300"
             >
-              ​
+              WhatsApp
             </a>
           </div>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
           <motion.a
-            href=""
+            href="https://wa.me/5521991848197?text=Ol%C3%A1%21%20Gostaria%20de%20agendar%20uma%20consulta%20com%20a%20Dra.%20J%C3%A9ssica%20Amaro."
             target="_blank"
             rel="noopener noreferrer"
             initial={{ opacity: 0, y: 20 }}
@@ -49,7 +49,7 @@ const Contact = () => {
             className="group flex flex-col items-center text-center p-8 rounded-lg border border-brand-gold/20 hover:border-brand-gold/50 hover:bg-white transition-all duration-300"
           >
             <MessageCircle className="text-brand-gold mb-4 group-hover:scale-110 transition-transform duration-300" size={36} strokeWidth={1.5} />
-            <h3 className="font-display text-lg font-semibold text-brand-green mb-2">​</h3>
+            <h3 className="font-display text-lg font-semibold text-brand-green mb-2">WhatsApp</h3>
             <p className="font-body text-sm text-muted-foreground">(21) 99184-8197</p>
           </motion.a>
 

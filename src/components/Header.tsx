@@ -30,7 +30,7 @@ const Header = () => {
                 {link.label}
               </a>
             ))}
-            <a href="" target="_blank" rel="noopener noreferrer" className="relative inline-flex items-center justify-center px-5 py-2.5 font-body text-[11px] font-semibold uppercase tracking-[0.18em] text-brand-green bg-gradient-to-b from-[hsl(38,68%,67%)] via-brand-gold to-[hsl(32,45%,48%)] border-t border-[hsl(40,80%,86%)] border-b border-[hsl(32,55%,32%)] shadow-[0_3px_0_0_hsl(32,55%,32%)] hover:-translate-y-0.5 active:translate-y-0.5 active:shadow-none transition-all duration-200 rounded-sm">
+            <a href="https://wa.me/5521991848197?text=Ol%C3%A1%21%20Gostaria%20de%20agendar%20uma%20consulta%20com%20a%20Dra.%20J%C3%A9ssica%20Amaro." target="_blank" rel="noopener noreferrer" className="relative inline-flex items-center justify-center px-5 py-2.5 font-body text-[11px] font-semibold uppercase tracking-[0.18em] text-brand-green bg-gradient-to-b from-[hsl(38,68%,67%)] via-brand-gold to-[hsl(32,45%,48%)] border-t border-[hsl(40,80%,86%)] border-b border-[hsl(32,55%,32%)] shadow-[0_3px_0_0_hsl(32,55%,32%)] hover:-translate-y-0.5 active:translate-y-0.5 active:shadow-none transition-all duration-200 rounded-sm">
               Fale Conosco
             </a>
           </nav>
@@ -50,7 +50,7 @@ const Header = () => {
                   {link.label}
                 </a>
               ))}
-              <a href="" target="_blank" rel="noopener noreferrer" className="relative inline-flex items-center justify-center px-5 py-3 font-body text-[11px] font-semibold uppercase tracking-[0.18em] text-brand-green bg-gradient-to-b from-[hsl(38,68%,67%)] via-brand-gold to-[hsl(32,45%,48%)] border-t border-[hsl(40,80%,86%)] border-b border-[hsl(32,55%,32%)] shadow-[0_3px_0_0_hsl(32,55%,32%)] rounded-sm">
+              <a href="https://wa.me/5521991848197?text=Ol%C3%A1%21%20Gostaria%20de%20agendar%20uma%20consulta%20com%20a%20Dra.%20J%C3%A9ssica%20Amaro." target="_blank" rel="noopener noreferrer" className="relative inline-flex items-center justify-center px-5 py-3 font-body text-[11px] font-semibold uppercase tracking-[0.18em] text-brand-green bg-gradient-to-b from-[hsl(38,68%,67%)] via-brand-gold to-[hsl(32,45%,48%)] border-t border-[hsl(40,80%,86%)] border-b border-[hsl(32,55%,32%)] shadow-[0_3px_0_0_hsl(32,55%,32%)] rounded-sm">
                 Fale Conosco
               </a>
             </div>
