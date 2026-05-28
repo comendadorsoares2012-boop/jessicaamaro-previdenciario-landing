@@ -30,7 +30,7 @@ const Consulta = () => {
   // Injeta noindex e título exclusivo desta página
   useEffect(() => {
     const prevTitle = document.title;
-    document.title = "Consulta gratuita | Dra. Jéssica Amaro";
+    document.title = "Atendimento jurídico | Dra. Jéssica Amaro";
 
     const meta = document.createElement("meta");
     meta.name = "robots";
