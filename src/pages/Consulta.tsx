@@ -162,10 +162,10 @@ const Consulta = () => {
               className="bg-cream text-brand-green rounded-2xl p-6 md:p-8 shadow-2xl border-t-4 border-brand-gold"
             >
               <h2 className="font-display text-2xl md:text-3xl font-bold mb-2">
-                Receba uma análise <span className="text-brand-gold">gratuita</span>
+                Fale com a <span className="text-brand-gold">Dra. Jéssica</span>
               </h2>
               <p className="font-body text-sm text-brand-green/70 mb-6">
-                Preencha os dados abaixo e fale agora com a Dra. Jéssica pelo WhatsApp.
+                Preencha os dados abaixo e dê o primeiro passo para entender os seus direitos.
               </p>
 
               <div className="space-y-4">
