@@ -1,14 +1,19 @@
 User-agent: Googlebot
 Allow: /
+Disallow: /consulta
 
 User-agent: Bingbot
 Allow: /
+Disallow: /consulta
 
 User-agent: Twitterbot
 Allow: /
+Disallow: /consulta
 
 User-agent: facebookexternalhit
 Allow: /
+Disallow: /consulta
 
 User-agent: *
 Allow: /
+Disallow: /consulta
