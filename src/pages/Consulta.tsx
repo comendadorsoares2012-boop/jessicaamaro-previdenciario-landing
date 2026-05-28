@@ -112,15 +112,14 @@ const Consulta = () => {
                 Direito do Consumidor
               </p>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-5">
-                Foi lesado por um banco, plano de saúde ou loja?
+                Seus direitos como consumidor merecem ser respeitados.
                 <span className="block text-gradient-gold mt-2">
-                  Você pode ter direito a indenização.
+                  Conte com orientação jurídica especializada.
                 </span>
               </h1>
               <div className="w-16 h-px bg-brand-gold mb-5" />
               <p className="font-body text-base md:text-lg text-primary-foreground/75 mb-8 leading-relaxed">
-                Análise gratuita do seu caso pela Dra. Jéssica Amaro. Sem
-                compromisso, com atendimento humanizado e total sigilo.
+                Problemas com bancos, planos de saúde, lojas ou prestadores de serviço? A Dra. Jéssica Amaro avalia o seu caso com ética, sigilo profissional e atendimento humanizado.
               </p>
 
               <ul className="space-y-3 mb-8">
