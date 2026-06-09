@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import logo from "../assets/logo-white.png";
+import logo from "../assets/logo.png";
 
 const VERDE_ESCURO = "#34574a";
 const AREIA = "#ddbf92";
@@ -180,11 +180,21 @@ const Links = () => {
       <div className="w-full max-w-[420px] flex flex-col items-center relative z-10">
         {/* PROFILE */}
         <div className="flex flex-col items-center mb-9 animate-[fadeDown_0.7s_ease_both]">
-          <img
-            src={logo}
-            alt="Logo Jéssica Amaro"
-            className="w-24 h-24 mb-4 shrink-0 object-contain"
-          />
+          <div
+            className="w-28 h-28 mb-4 shrink-0 rounded-full flex items-center justify-center"
+            style={{
+              background: "radial-gradient(circle at 50% 45%, #faf8f4 0%, #f3ead7 65%, #ddbf92 100%)",
+              border: "2px solid rgba(221,191,146,0.55)",
+              boxShadow:
+                "0 8px 24px rgba(0,0,0,0.28), 0 0 0 6px rgba(221,191,146,0.12)",
+            }}
+          >
+            <img
+              src={logo}
+              alt="Logo Jéssica Amaro"
+              className="w-20 h-20 object-contain"
+            />
+          </div>
           <h1
             style={{
               fontFamily: "'Cormorant Garamond', serif",
