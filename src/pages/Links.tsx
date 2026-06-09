@@ -183,10 +183,7 @@ const Links = () => {
           <img
             src={logo}
             alt="Logo Jéssica Amaro"
-            className="w-20 h-20 rounded-full mb-4 shrink-0 object-cover"
-            style={{
-              border: "2px solid rgba(221,191,146,0.3)",
-            }}
+            className="w-24 h-24 mb-4 shrink-0 object-contain"
           />
           <h1
             style={{
