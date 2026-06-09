@@ -190,7 +190,7 @@ const Links = () => {
               border: "2px solid rgba(221,191,146,0.3)",
             }}
           >
-            JA
+            ​
           </div>
           <h1
             style={{
