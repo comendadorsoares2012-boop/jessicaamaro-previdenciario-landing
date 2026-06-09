@@ -45,7 +45,7 @@ const sections: Section[] = [
         icon: "🤝",
         title: "Mentoria em Casos Concretos",
         sub: "Acompanhamento prático em casos reais",
-        href: "#",
+        href: "/mentoria",
         variant: "primary",
       },
     ],
