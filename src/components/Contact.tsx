@@ -50,7 +50,7 @@ const Contact = () => {
           >
             <MessageCircle className="text-brand-gold mb-4 group-hover:scale-110 transition-transform duration-300" size={36} strokeWidth={1.5} />
             <h3 className="font-display text-lg font-semibold text-brand-green mb-2">WhatsApp</h3>
-            <p className="font-body text-sm text-muted-foreground">(21) 99184-8197</p>
+            <p className="font-body text-sm text-muted-foreground text-left whitespace-pre-line">Telefone: {"\n"}2695-2241{"\n"}(21) 99184-8197</p>
           </motion.a>
 
           <motion.a
@@ -63,7 +63,7 @@ const Contact = () => {
           >
             <Phone className="text-brand-gold mb-4 group-hover:scale-110 transition-transform duration-300" size={36} strokeWidth={1.5} />
             <h3 className="font-display text-lg font-semibold text-brand-green mb-2">Telefone</h3>
-            <p className="font-body text-sm text-muted-foreground">(21) 2695-2241</p>
+            <p className="font-body text-sm text-muted-foreground">​</p>
           </motion.a>
 
           <motion.div
