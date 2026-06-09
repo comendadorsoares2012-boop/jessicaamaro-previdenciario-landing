@@ -29,8 +29,9 @@ const links = [
     icon: Mic,
     title: "Podcast",
     description: "Conversas e conteúdos sobre Direito",
-    href: "#",
+    href: "https://www.youtube.com/@J%C3%A9ssicaAmaroPodcast",
     badge: "Ouça",
+    external: true,
   },
   {
     icon: MessageCircle,
