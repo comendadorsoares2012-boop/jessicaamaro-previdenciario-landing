@@ -11,10 +11,12 @@ const TEXTO = "#1e2e28";
 const WPP_LINK =
   "https://wa.me/5521991848197?text=Ol%C3%A1%20J%C3%A9ssica!%20Quero%20agendar%20uma%20mentoria%20individual.";
 
+const EASE = [0.22, 1, 0.36, 1] as const;
+
 const fadeUp = {
   hidden: { opacity: 0, y: 28 },
-  show: { opacity: 1, y: 0, transition: { duration: 0.8, ease: [0.22, 1, 0.36, 1] } },
-};
+  show: { opacity: 1, y: 0, transition: { duration: 0.8, ease: EASE } },
+} as const;
 
 const Section: React.FC<React.PropsWithChildren<{ className?: string; style?: React.CSSProperties }>> = ({
   children,
