@@ -23,8 +23,8 @@ const Footer = () => {
           <div>
             <h4 className="font-display text-sm font-semibold text-brand-gold uppercase tracking-wider mb-4">​</h4>
             <div className="font-body text-sm text-primary-foreground/50 space-y-2">
-              <p>(21) 99184-8197</p>
-              <p>Telefone: (21) 2695-2241</p>
+              <p className="text-left whitespace-pre-line">Telefone: {"\n"}2695-2241{"\n"}(21) 99184-8197</p>
+              <p>​</p>
               <p className="leading-relaxed">
                 Av. Gov. Roberto Silveira, 470 – Sala 1117<br />
                 Centro Top Commerce, Nova Iguaçu – RJ

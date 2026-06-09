@@ -268,7 +268,7 @@ const Consulta = () => {
       <footer className="bg-brand-green border-t border-brand-gold/20 py-6">
         <div className="container mx-auto px-4 lg:px-8 text-center">
           <p className="font-body text-xs text-primary-foreground/60">
-            Dra. Jéssica Amaro Advocacia · (21) 99184-8197
+            Dra. Jéssica Amaro Advocacia · Telefone: 2695-2241 / (21) 99184-8197
           </p>
         </div>
       </footer>
