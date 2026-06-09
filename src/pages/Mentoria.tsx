@@ -185,7 +185,7 @@ const Mentoria = () => {
         <motion.div
           initial={{ opacity: 0, y: 32 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
+          transition={{ duration: 0.9, ease: EASE }}
           style={{
             display: "flex",
             flexDirection: "column",
@@ -263,7 +263,7 @@ const Mentoria = () => {
           <motion.div
             initial={{ opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.25, duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
+            transition={{ delay: 0.25, duration: 0.9, ease: EASE }}
             style={{
               position: "relative",
               background:
@@ -415,7 +415,7 @@ const Mentoria = () => {
                 initial={{ opacity: 0, y: 16 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, amount: 0.3 }}
-                transition={{ duration: 0.55, delay: i * 0.07, ease: [0.22, 1, 0.36, 1] }}
+                transition={{ duration: 0.55, delay: i * 0.07, ease: EASE }}
                 whileHover={{ y: -3, boxShadow: "0 16px 40px rgba(52,87,74,0.12)" }}
                 style={{
                   display: "flex",
@@ -574,7 +574,7 @@ const Mentoria = () => {
               initial={{ opacity: 0, x: -16 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, amount: 0.4 }}
-              transition={{ duration: 0.55, delay: i * 0.1, ease: [0.22, 1, 0.36, 1] }}
+              transition={{ duration: 0.55, delay: i * 0.1, ease: EASE }}
               style={{ display: "flex", gap: 24, paddingBottom: 36, position: "relative" }}
             >
               <div
