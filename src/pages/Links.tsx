@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import logo from "../assets/logo.png";
 
 const VERDE_ESCURO = "#34574a";
 const AREIA = "#ddbf92";
