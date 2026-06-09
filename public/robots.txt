@@ -1,19 +1,24 @@
 User-agent: Googlebot
 Allow: /
 Disallow: /capturalead
+Disallow: /links
 
 User-agent: Bingbot
 Allow: /
 Disallow: /capturalead
+Disallow: /links
 
 User-agent: Twitterbot
 Allow: /
 Disallow: /capturalead
+Disallow: /links
 
 User-agent: facebookexternalhit
 Allow: /
 Disallow: /capturalead
+Disallow: /links
 
 User-agent: *
 Allow: /
 Disallow: /capturalead
+Disallow: /links
