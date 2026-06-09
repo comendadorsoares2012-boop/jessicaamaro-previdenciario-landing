@@ -180,19 +180,14 @@ const Links = () => {
       <div className="w-full max-w-[420px] flex flex-col items-center relative z-10">
         {/* PROFILE */}
         <div className="flex flex-col items-center mb-9 animate-[fadeDown_0.7s_ease_both]">
-          <div
-            className="w-20 h-20 rounded-full flex items-center justify-center mb-4 shrink-0"
+          <img
+            src={logo}
+            alt="Logo Jéssica Amaro"
+            className="w-20 h-20 rounded-full mb-4 shrink-0 object-cover"
             style={{
-              background: `linear-gradient(135deg, #3a6858, ${AREIA})`,
-              fontFamily: "'Cormorant Garamond', serif",
-              fontSize: 32,
-              fontWeight: 300,
-              color: VERDE_ESCURO,
               border: "2px solid rgba(221,191,146,0.3)",
             }}
-          >
-            ​
-          </div>
+          />
           <h1
             style={{
               fontFamily: "'Cormorant Garamond', serif",
