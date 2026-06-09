@@ -16,14 +16,14 @@ const Footer = () => {
               Advogada especialista em Direito Previdenciário. Atendimento humanizado e comprometido com os seus direitos.
             </p>
             <p className="font-body text-sm text-primary-foreground/40 mt-3">
-              OAB/RJ — [Número]
+              OAB/RJ — 177377
             </p>
           </div>
 
           <div>
             <h4 className="font-display text-sm font-semibold text-brand-gold uppercase tracking-wider mb-4">​</h4>
             <div className="font-body text-sm text-primary-foreground/50 space-y-2">
-              <p>​: (21) 99184-8197</p>
+              <p>(21) 99184-8197</p>
               <p>Telefone: (21) 2695-2241</p>
               <p className="leading-relaxed">
                 Av. Gov. Roberto Silveira, 470 – Sala 1117<br />
